@@ -1,0 +1,14 @@
+{
+  "name": "gymsfits",
+  "version": "1.0.0",
+  "description": " social network for gyms gogers",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "chiagoziem",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

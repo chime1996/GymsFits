@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 1.4rem;
+}
+
+.header {
+  height: 95vh;
+  background-image: url(/images/main-bg.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
+  position: relative;
+}
+
+.header-texts {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.heading__primary {
+  text-transform: uppercase;
+  color: #fefefe;
+  margin-bottom: 2.4rem;
+}
+
+.heading__primary--main {
+  display: block;
+  font-size: 3.8rem;
+  line-height: 1.7;
+  letter-spacing: 5px;
+}
+
+.heading__primary--sub {
+  display: block;
+  font-size: 1.4rem;
+  letter-spacing: 3px;
+}/*# sourceMappingURL=main.css.map */
